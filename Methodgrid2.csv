@@ -1,0 +1,3 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__n_estimators,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+RandomForestClassifier,0.7969187675070029,dfstem3,0.7668067226890757,TfidfVectorizer,150,0.95,3500,2,"(1, 3)",,\S+
+RandomForestClassifier,0.811624649859944,dfstem3,0.773109243697479,CountVectorizer,150,0.95,4000,2,"(1, 3)",,\S+

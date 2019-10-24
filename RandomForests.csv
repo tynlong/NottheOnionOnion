@@ -1,0 +1,5 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__n_estimators,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+RandomForestClassifier,0.8153030184852975,dflemma2,0.8284978942442677,TfidfVectorizer,100,0.95,18000,2,"(1, 3)",,\S+
+RandomForestClassifier,0.8196708525076047,dflemma2,0.8327094057089378,CountVectorizer,100,0.95,18000,2,"(1, 2)",,\S+
+RandomForestClassifier,0.8248186568910382,dfstem2,0.8315395414131961,TfidfVectorizer,100,0.95,14000,2,"(1, 2)",,\S+
+RandomForestClassifier,0.8259886124327276,dfstem2,0.8369209171736078,CountVectorizer,100,0.95,18000,2,"(1, 2)",,\S+

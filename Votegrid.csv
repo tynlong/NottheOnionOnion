@@ -1,0 +1,3 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__lr__C,class__nb__alpha,class__tree__n_estimators,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+VotingClassifier,0.8520396224943452,dfstem2,0.8724847917641554,CountVectorizer,10,0.3,100,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+
+VotingClassifier,0.853131580999922,dflemma2,0.8706130088909686,CountVectorizer,10,0.3,100,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+

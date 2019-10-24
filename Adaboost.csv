@@ -1,0 +1,2 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__n_estimators,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+AdaBoostClassifier,0.7405818578894002,dfstem2,0.7447356106691624,CountVectorizer,300,0.95,15000,2,"(1, 3)",,\S+

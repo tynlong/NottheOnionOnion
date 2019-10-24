@@ -1,0 +1,3 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__base_estimator__C,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+BaggingClassifier,0.8462678418220108,dflemma2,0.8575105287786616,CountVectorizer,10,0.95,,2,"(1, 2)",,\S+
+BaggingClassifier,0.8468138210747992,dfstem2,0.86055217594759,CountVectorizer,1,0.95,,2,"(1, 2)",,\S+

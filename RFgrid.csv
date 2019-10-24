@@ -1,0 +1,5 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__max_depth,class__n_estimators,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+RandomForestClassifier,0.8225567428437719,dfstem2,0.8378568086102012,CountVectorizer,,100,0.95,,2,"(1, 3)","['onion', 'nottheonion']",\S+
+RandomForestClassifier,0.8174089384603385,dfstem2,0.8336452971455312,TfidfVectorizer,,100,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+
+RandomForestClassifier,0.8161609858825365,dflemma2,0.8331773514272345,CountVectorizer,400.0,100,0.95,,2,"(1, 3)","['onion', 'nottheonion']",\S+
+RandomForestClassifier,0.8154590125575228,dflemma2,0.832241459990641,TfidfVectorizer,400.0,100,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+

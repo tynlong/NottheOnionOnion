@@ -1,0 +1,5 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__C,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+LogisticRegression,0.8539115513610482,dflemma2,0.8654656059897052,TfidfVectorizer,10,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8496997114109663,dflemma2,0.8600842302292934,CountVectorizer,1,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8528975898915842,dfstem2,0.8673373888628919,TfidfVectorizer,10,0.95,,2,"(1, 3)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8483737617970517,dfstem2,0.8586803930744034,CountVectorizer,1,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+

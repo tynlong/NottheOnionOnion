@@ -1,0 +1,3 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__alpha,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+MultinomialNB,0.8442399188830825,dflemma2,0.8652316331305568,CountVectorizer,0.6,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8447858981358708,dfstem2,0.8614880673841835,CountVectorizer,0.1,0.95,,2,"(1, 2)","['onion', 'nottheonion']",\S+

@@ -1,0 +1,21 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+LogisticRegression,0.8243506746743624,df,0.839728591483388,TfidfVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8216207784104204,df,0.8378568086102012,TfidfVectorizer,0.95,10000,2,"(1, 1)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8315264019967241,df,0.8493214787084699,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.824428671710475,df,0.8404305100608329,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8304344434911474,dflemma,0.8362189985961629,TfidfVectorizer,0.95,15000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8234927072771234,dflemma,0.8371548900327562,TfidfVectorizer,0.95,15000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8352702597301302,dflemma,0.8437061300889097,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8263785976132907,dflemma,0.8416003743565746,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8286405116605569,dfstem,0.8387927000467946,TfidfVectorizer,0.95,15000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8245066687465876,dfstem,0.8380907814693496,TfidfVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8377661648857343,dfstem,0.8444080486663547,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8261446065049528,dfstem,0.8458118858212448,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8379221589579596,dflemma2,0.8554047730463267,TfidfVectorizer,0.95,15000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8387021293190858,dflemma2,0.8523631258773983,TfidfVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8498557054831917,dflemma2,0.8558727187646233,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8407300522580142,dflemma2,0.85774450163781,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8389361204274237,dfstem2,0.8568086102012167,TfidfVectorizer,0.95,15000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8385461352468606,dfstem2,0.8537669630322883,TfidfVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+LogisticRegression,0.8458778566414477,dfstem2,0.8554047730463267,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+
+MultinomialNB,0.8405740581857889,dfstem2,0.8568086102012167,CountVectorizer,0.95,20000,2,"(1, 2)","['onion', 'nottheonion']",\S+

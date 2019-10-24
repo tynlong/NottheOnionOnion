@@ -1,0 +1,3 @@
+Classifier,Cross_Val_Score,Data,Test_Score,Vectorizer,class__C,vec__max_df,vec__max_features,vec__min_df,vec__ngram_range,vec__stop_words,vec__token_pattern
+LogisticRegression,0.8532095780360346,dflemma2,0.8628919045390735,TfidfVectorizer,5,0.95,17736,2,"(1, 2)",,\S+
+LogisticRegression,0.8509476639887684,dfstem2,0.8645297145531119,TfidfVectorizer,5,0.95,15368,2,"(1, 2)",,\S+
